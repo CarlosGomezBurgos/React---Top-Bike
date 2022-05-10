@@ -1,6 +1,6 @@
 import React from 'react';
 
-function OneUser (props){
+function OneProduct (props){
     
 
     return(
@@ -12,10 +12,10 @@ function OneUser (props){
 
                     <thead>
                         <tr>
-                            <p>Usuario: {props.id}</p>
+                            <p>Producto: {props.id}</p>
                             <h2>{props.name}</h2>
-                            <p>{props.email}</p>
-                            <img src= {props.picture} />
+                            <p>{props.description}</p>
+                            <img src= {props.image} />
                         </tr>
                     </thead>
 
@@ -29,5 +29,4 @@ function OneUser (props){
 
 }
 
-export default OneUser;
-
+export default OneProduct;
